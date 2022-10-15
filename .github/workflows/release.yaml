@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        sha: 0b2f4d5fb04bf55e1873e2c5e2bb28da67c0643f
+        ref: 0b2f4d5fb04bf55e1873e2c5e2bb28da67c0643f
 
       - uses: actions/setup-go@v3.3.0
         with:
